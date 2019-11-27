@@ -118,6 +118,7 @@
   border-radius: 12px;
   width: 60px;
   height: 70px;
+  margin: 2px;
 }
 
 .polbutton {
@@ -165,7 +166,7 @@
 .viewpoint-small {
   display: flex;
   justify-content: space-between;
-  min-width: 250px;
+  min-width: 23%;
 }
 #forAgainst {
   color: rgb(129, 175, 37);
@@ -188,4 +189,7 @@
 }
 .pol {
   width: 180px;
+}
+.ev {
+  min-width: 77%
 }

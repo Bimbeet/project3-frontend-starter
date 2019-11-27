@@ -171,7 +171,7 @@ class OnePolitician extends React.Component {
                         <h4>Previous Offices Held: {background.offices_held}</h4>
                         <h4>Legislation Created: {background.legislation}</h4>
                     </div>
-                    <div className="politician">
+                    <div>
                         <h3>Viewpoints</h3>
                         {this.renderViews()}
                     </div>
