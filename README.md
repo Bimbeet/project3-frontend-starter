@@ -35,15 +35,11 @@ The Voter's Digest app is a comprehensive guide of the 13 leading candidates for
 - __Express:__ A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
 - __JSON APIs:__ JSON (or JavaScript Object Notation) is a lightweight, easy and popular way to exchange data. A backend REST service to deliver some data in JSON format to the front-end application.
 
-## Entity Relationship Diagram
-
-![](images/entity_relationship_diagram.jpg)
-
 ## Wireframes
 
 ![](images/landing-page.jpg)
-![](images/all_candidates.jpg)
-![](images/candidate-page.jpg)
+![](images/Screen Shot 2019-11-21 at 9.38.09 AM.png)
+![](images/Screen Shot 2019-11-21 at 9.54.12 AM.png)
 
 
 
