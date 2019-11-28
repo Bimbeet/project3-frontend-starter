@@ -170,6 +170,11 @@ class OnePolitician extends React.Component {
                         <h4>Family: {background.family}</h4>
                         <h4>Previous Offices Held: {background.offices_held}</h4>
                         <h4>Legislation Created: {background.legislation}</h4>
+                        <div>
+                            <a href={politician.facebook} target="_blank" rel="noopener noreferrer"><img src="images/fb.png" alt="" /></a>
+                            <a href={politician.instagram} target="_blank" rel="noopener noreferrer"><img src="images/insta.png" alt="" /></a>
+                            <a href={politician.twitter} target="_blank" rel="noopener noreferrer"><img src="images/twitt.png" alt="" /></a>
+                        </div>
                     </div>
                     <div>
                         <h3>Viewpoints</h3>

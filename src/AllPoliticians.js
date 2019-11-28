@@ -28,14 +28,10 @@ class AllPoliticians extends React.Component {
             return (
                 <div key={candidate.id} className="pol">
                     <Link to={`/onepolitician/${candidate.id}`}>
-                        <img
-                            className="CandidateImages"
-                            src={`images/${candidate.id}.png`}
-                            alt=""
-                        />
+                        <img className="CandidateImages" src={`images/${candidate.id}.png`} alt=""/>
                         <h3>{candidate.name}</h3>
                     </Link>
-                    <h4>{candidate.party}</h4>
+                    <h4><img className="partyImg" src={candidate.political_party_img_url} alt="" /> {candidate.political_party}</h4>
                 </div>
             );
         });

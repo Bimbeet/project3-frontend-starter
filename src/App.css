@@ -180,15 +180,22 @@
   margin: 8px;
   padding: 5px;
 }
+h3 {
+  margin: 5px;
+}
 #bio h1, #bio a, #bio h3 {
   margin: 10px;
   text-align: center;
 }
-#bio h4 {
+h4 {
   margin: 5px;
 }
 .pol {
   width: 180px;
+  margin: 2px;
+}
+.partyImg {
+  width: 12%;
 }
 .ev {
   min-width: 77%
